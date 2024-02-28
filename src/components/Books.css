@@ -1,0 +1,22 @@
+.booksContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.booksInputContainer {
+    justify-content: center;
+    padding: 10em 10em 3em
+}
+
+.bookListContainer {
+    flex-direction: column; /* needs to be overridden */
+    justify-content: center;
+    padding: 1em;
+}
+.bookList {
+    width: inherit;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
